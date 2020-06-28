@@ -22,6 +22,6 @@ body{
   color: var(--mainBlue);
 }
 .text-bright{
-  color: ver(--lightBlue)
+  color: var(--lightBlue)
 }
 
