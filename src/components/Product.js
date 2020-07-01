@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ProductConsumer } from "../Context";
 import PropTypes from "prop-types";
 
-export default class Poduct extends Component {
+export default class Product extends Component {
   render() {
     const { id, title, img, price, inCart } = this.props.product;
     return (
@@ -48,7 +48,7 @@ export default class Poduct extends Component {
   }
 }
 //Prop types
-ProductConsumer.PropTypes = {
+Product.propTypes = {
   product: PropTypes.shape({
     id: PropTypes.number,
     img: PropTypes.string,
