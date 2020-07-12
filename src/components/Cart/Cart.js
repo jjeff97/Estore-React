@@ -22,7 +22,7 @@ export default class Cart extends Component {
               );
             }
             else{
-            return <EmptyCart />
+            return <EmptyCart />;
             }
           }}
         </ProductConsumer>
