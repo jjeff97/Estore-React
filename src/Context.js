@@ -12,9 +12,9 @@ class ProductProvider extends Component {
     cart: [],
     modalOpen: false,
     modalProduct: detailProduct,
-    cartSubTotal: 0,
-    cartTax: 0,
-    cartTotal: 0
+    cartSubTotal: 10,
+    cartTax: 5,
+    cartTotal: 15
 
   };
   componentDidMount() {
